@@ -1,0 +1,225 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 19, 2015, 3:18:14 PM
+    Author     : Alkalinity
+*/
+body{
+    font-family: sans-serif;
+    background: lightgray;
+    background-image: url("../images/background.png");
+    background-position: initial;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+}
+/*********** HEADER SECTION ************/
+h1{
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: white;
+    padding: .5em;
+}
+
+
+/*********** NAV SECTION ***************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+#cssmenu {
+    width: 67%;
+    margin: auto;
+    margin-bottom: -40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    z-index: 250;
+    position: relative;    
+    background: #9E8E7A;
+}
+#cssmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    display: block;
+    zoom: 1;
+}
+#cssmenu ul:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#cssmenu ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+#cssmenu.align-right ul li {
+    float: right;
+}
+#cssmenu.align-center ul {
+    text-align: center;
+}
+#cssmenu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: color .25s;
+    -moz-transition: color .25s;
+    -ms-transition: color .25s;
+    -o-transition: color .25s;
+    transition: color .25s;
+}
+#cssmenu ul li a:hover {
+    color: #333333;
+}
+#cssmenu ul li a:hover:before {
+    width: 100%;
+}
+#cssmenu ul li a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -3px;
+    top: 19px;
+    height: 6px;
+    width: 6px;
+    background: #ffffff;
+    opacity: .5;
+}
+#cssmenu ul li a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #333333;
+    -webkit-transition: width .25s;
+    -moz-transition: width .25s;
+    -ms-transition: width .25s;
+    -o-transition: width .25s;
+    transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+    display: none;
+}
+#cssmenu ul li.active a {
+    color: #333333;
+}
+#cssmenu ul li.active a:before {
+    width: 100%;
+}
+#cssmenu.align-right li.last > a:after,
+#cssmenu.align-right li:last-child > a:after {
+    display: block;
+}
+#cssmenu.align-right li:first-child a:after {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    #cssmenu ul li {
+        float: none;
+        display: block;
+    }
+    #cssmenu ul li a {
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-bottom: 1px solid #fb998c;
+    }
+    #cssmenu ul li.last > a,
+    #cssmenu ul li:last-child > a {
+        border: 0;
+    }
+    #cssmenu ul li a:after {
+        display: none;
+    }
+    #cssmenu ul li a:before {
+        display: none;
+    }
+}
+
+
+/********** MAIN ARTICLE SECTION *******/
+article{
+    width: 67%;
+    margin: auto;
+    margin-top: 0px;
+    background-color: white;
+    padding: 1em;
+    padding-top: 2em;
+}
+
+/********** HOME PAGE SECTION *********/
+figure{
+    margin: auto;
+    border-bottom: thin solid gray;
+}
+figcaption{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: -125px;
+    z-index: 200;
+    padding-left: 20px;
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption p a{
+    color: white;
+}
+.flatBread{
+    width: 850px;
+    height: 525px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+aside{
+    font-size: 15pt;
+    padding-left: 5em;
+    padding-right: 5em;
+    border-bottom: thin solid gray;
+    clear: both;
+}
+.info{
+    padding-top: 1em;
+}
+.push{
+    clear: both;
+}
+.dumpling{
+    float: right;
+    width: 200px;
+    height: 250px;
+    padding-left: 1em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+/********* FOOTER SECTION ********/
+.footer{
+    width: 67%;
+    background-color: #999966;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .20em;
+    padding-bottom: .20em;
+}
