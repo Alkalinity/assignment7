@@ -17,6 +17,18 @@ body{
     margin-top: 0px;
 }
 /*********** HEADER SECTION ************/
+h1.pageTitle{
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: white;
+    padding: .5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: thin solid #9E8E7A;
+}
 h1{
     width: 67%;
     margin-left: auto;
@@ -24,6 +36,13 @@ h1{
     margin-top: 0px;
     background-color: white;
     padding: .5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;   
+    border-bottom: thin solid #9E8E7A;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;   
 }
 
 
@@ -167,9 +186,14 @@ article{
 }
 
 /********** HOME PAGE SECTION *********/
-figure{
+.featured{
     margin: auto;
     border-bottom: thin solid gray;
+}
+figure{
+    margin: auto;
+    max-width: 850px;
+
 }
 figcaption{
     color: white;
@@ -178,26 +202,33 @@ figcaption{
     top: -125px;
     z-index: 200;
     padding-left: 20px;
-    width: 830px;
+    width: 100%;
+    height: 100%;
+    max-width: 830px;
     margin-left: auto;
     margin-right: auto;
+
 }
 figcaption p a{
     color: white;
 }
 .flatBread{
-    width: 850px;
-    height: 525px;
+    width: 100%;
+    height: 100%;
+    max-width: 850px;
+    max-height: 525px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 aside{
-    font-size: 15pt;
     padding-left: 5em;
     padding-right: 5em;
     border-bottom: thin solid gray;
     clear: both;
+}
+.content{
+    font-size: 15pt;
 }
 .info{
     padding-top: 1em;
@@ -213,11 +244,59 @@ aside{
     padding-right: 2em;
     padding-bottom: 2em;
 }
+.donut{
+    float: left;
+    padding-right: 2em;
+    padding-left: 1em;
+    width: 300px;
+    height: 200px;
+}
+.links{
+    float: right;
+}
+/*************** Restaurant Page Section ****************/
+.restTable{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.restTable th{
+    border-bottom: thin solid #9E8E7A;
+}
+td{
+    padding: .5em;
+}
 
+tr:nth-child(even){
+    background-color: rgba(158, 142, 122, .2);
+}
+/*************** BURLINGTON SECTION ************/
+.bTown{
+    font-size: 125%;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.nectars{
+    float: left;
+    max-width: 350px;
+    max-height: 250px;
+    padding: 1em;
+}
+.churchstreet{
+    float: right;
+    max-height: 250px;
+    max-width: 350px;
+    padding: 1em;
+}
+.waterfront{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 /********* FOOTER SECTION ********/
 .footer{
     width: 67%;
-    background-color: #999966;
+    background-color: #9E8E7A;
     padding-left: 1em;
     padding-right: 1em;
     padding-top: .20em;

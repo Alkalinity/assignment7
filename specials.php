@@ -17,6 +17,59 @@
             include "nav.php";
         ?>
         <article>
+            <h1 class="Specials">Specials</h1>
+            <h2 class="week">For the Week of May 4th</h2>
+            <aside class="lists">
+                <h2>Monday</h2>
+                <ul>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                </ul>
+                <h2>Tuesday</h2>
+                <ul>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                </ul>
+                <h2>Wednesday</h2>
+                <ul>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                </ul>
+                <h2>Thursday</h2>
+                <ul>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                </ul>
+                <h2>Friday</h2>
+                <ul>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                </ul>
+                <h2>Saturday</h2>
+                <ul>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                </ul>
+                <h2>Sunday</h2>
+                <ul>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                    <li>Data</li>
+                </ul>
+            </aside>
             
         </article>
         <?php
